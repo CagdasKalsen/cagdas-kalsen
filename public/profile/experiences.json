@@ -1,33 +1,47 @@
 {
-    "experiences": [
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+    "experiences": [{
+            "title": "Software Engineer Fellow",
+            "subtitle": "General Assembly",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Full-stack software engineering immersive student in an intensive, twelve-week, 450+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. ",
+                "Developed a portfolio of individual and group projects."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "10/2022 – 02/2023"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Uber",
+            "subtitle": "Independent Contractor",
+            "workType": "Full-time",
             "workDescription": [
-                "Worked on abc."
+                "Earned and maintained a 5.0 rating as a driver after providing 8,500+ rides to customers in the Boston Metro",
+                "Communicated effectively with riders via the Uber app to coordinate pick-up and drop-off locations",
+                "Provided excellent customer service to ensure a positive rider experience, resulting in maintained 5.0 rating",
+                "Responded promptly to customer request and complaints, ensuring that customers would be satisfied and be repeat customers with Uber"
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "01/2013 – 11/2022"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "USPS",
+            "subtitle": "Letter Carrier",
+            "workType": "Full-time",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Led a regular mail route, ensuring accurate and prompt delivery of packages, letters, and other mail items",
+                "Prepared mail from the distribution case and organized it in sequence for efficient delivery",
+                "Handled undeliverable mail in accordance with established procedures"
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "08/2019 – 01/2020"
+        },
+        {
+            "title": "Proper Real Estate ",
+            "subtitle": "Real Estate Agent",
+            "workType": "Full-time",
+            "workDescription": [
+                "Showed properties to prospective tenants and provided information about amenities, rent, prices, and lease terms",
+                "Negotiated lease terms and conditions with prospective tenants, including rent, move-in dates, and lease length",
+                "Prepared lease agreements in a detail-oriented manner to ensure that all agreements are in compliance with state and federal laws"
+            ],
+            "dateText": "08/2013 – 04/2014"
         }
     ]
 }

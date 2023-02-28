@@ -1,16 +1,15 @@
 {
-    "social": [
-        {
-            "network" : "linkedin",
-            "href": "https://linkedin.com/"
+    "social": [{
+            "network": "linkedin",
+            "href": "https://www.linkedin.com/in/cagdaskalsensoftwareengineer/"
         },
         {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "network": "github",
+            "href": "https://github.com/CagdasKalsen"
         },
         {
-            "network" : "email",
-            "href": "mailto:test@test.com"
+            "network": "email",
+            "href": "mailto:cagdaskalsen@gmail.com"
         }
     ]
 }

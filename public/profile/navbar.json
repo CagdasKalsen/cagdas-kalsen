@@ -1,11 +1,10 @@
 {
-    "logo" : {
-        "source": "images/logo.png",
-        "height" : 45,
-        "width" : 50
+    "logo": {
+        "source": "images/cagdas.png",
+        "height": 155,
+        "width": 170
     },
-    "sections": [
-        {
+    "sections": [{
             "title": "Home",
             "href": "/"
         },
@@ -35,5 +34,4 @@
             "type": "link"
         }
     ]
-
 }

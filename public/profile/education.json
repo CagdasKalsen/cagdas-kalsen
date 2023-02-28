@@ -1,19 +1,27 @@
 {
-    "education":[
-        {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+    "education": [{
+            "title": "October 2022 - February 2023",
+            "cardTitle": "Software Engineer Fellow ",
+            "cardSubtitle": "General Assembly ",
+            "cardDetailedText": "Full-stack software engineering immersive student in an intensive, twelve-week, 450+ hour program focused on product development fundamentals, object-oriented programming, MVC frameworks, data modeling, and team collaboration strategies. Developed a portfolio of individual and group projects.",
+            "icon": {
+                "src": "images/education/ga.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "January 2020 - September 2021",
+            "cardTitle": "Data Analytics Certificate ",
+            "cardSubtitle": "Bunker Hill Community Collage - January 2021 - September 2022",
+            "cardDetailedText": "Learned Python, MySQL, statistics, problem-solving, data analysis, and other important skills for data analytics. Additionally, I completed projects and exercises that involved cleaning, transforming, and analyzing data to draw insights and create visualizations. Through these experiences, I have demonstrated proficiency in using data to make informed decisions and drive business value.",
+            "icon": {
+                "src": "images/education/bunker.png"
+            }
+        },
+        {
+            "title": "",
+            "cardTitle": "Bachelor of Science - Business Administration ",
+            "cardSubtitle": "Inonu University",
+            "cardDetailedText": ""
         }
     ]
 }

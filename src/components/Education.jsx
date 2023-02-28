@@ -1,41 +1,47 @@
-import React, { useEffect, useState, useContext } from 'react';
-import { Chrono } from 'react-chrono';
-import { Container } from 'react-bootstrap';
-import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
-import { ThemeContext } from 'styled-components';
-import endpoints from '../constants/endpoints';
-import Header from './Header';
-import FallbackSpinner from './FallbackSpinner';
-import '../css/education.css';
+/* eslint-disable quotes */
+/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable function-paren-newline */
+/* eslint-disable comma-dangle */
+/* eslint-disable no-confusing-arrow */
+/* eslint-disable react/destructuring-assignment */
+import React, { useEffect, useState, useContext } from "react";
+import { Chrono } from "react-chrono";
+import { Container } from "react-bootstrap";
+import PropTypes from "prop-types";
+import Fade from "react-reveal";
+import { ThemeContext } from "styled-components";
+import endpoints from "../constants/endpoints";
+import Header from "./Header";
+import FallbackSpinner from "./FallbackSpinner";
+import "../css/education.css";
 
 function Education(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
-  const [width, setWidth] = useState('50vw');
-  const [mode, setMode] = useState('VERTICAL_ALTERNATING');
+  const [width, setWidth] = useState("50vw");
+  const [mode, setMode] = useState("VERTICAL_ALTERNATING");
 
   useEffect(() => {
     fetch(endpoints.education, {
-      method: 'GET',
+      method: "GET",
     })
       .then((res) => res.json())
       .then((res) => setData(res))
       .catch((err) => err);
 
     if (window?.innerWidth < 576) {
-      setMode('VERTICAL');
+      setMode("VERTICAL");
     }
 
     if (window?.innerWidth < 576) {
-      setWidth('90vw');
+      setWidth("90vw");
     } else if (window?.innerWidth >= 576 && window?.innerWidth < 768) {
-      setWidth('90vw');
+      setWidth("90vw");
     } else if (window?.innerWidth >= 768 && window?.innerWidth < 1024) {
-      setWidth('75vw');
+      setWidth("75vw");
     } else {
-      setWidth('50vw');
+      setWidth("50vw");
     }
   }, []);
 
@@ -62,19 +68,23 @@ function Education(props) {
                 }}
               >
                 <div className="chrono-icons">
-                  {data.education.map((education) => (education.icon ? (
-                    <img
-                      key={education.icon.src}
-                      src={education.icon.src}
-                      alt={education.icon.alt}
-                    />
-                  ) : null))}
+                  {data.education.map((education) =>
+                    education.icon ? (
+                      <img
+                        key={education.icon.src}
+                        src={education.icon.src}
+                        alt={education.icon.alt}
+                      />
+                    ) : null
+                  )}
                 </div>
               </Chrono>
             </Container>
           </div>
         </Fade>
-      ) : <FallbackSpinner /> }
+      ) : (
+        <FallbackSpinner />
+      )}
     </>
   );
 }
