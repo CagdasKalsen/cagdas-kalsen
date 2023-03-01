@@ -1,9 +1,3 @@
-/* eslint-disable operator-linebreak */
-/* eslint-disable implicit-arrow-linebreak */
-/* eslint-disable quotes */
-/* eslint-disable comma-dangle */
-/* eslint-disable function-paren-newline */
-/* eslint-disable react/no-unstable-nested-components */
 import React, { useState, useEffect, Suspense } from "react";
 import { Switch, Route } from "react-router-dom";
 import FallbackSpinner from "./components/FallbackSpinner";
