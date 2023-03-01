@@ -15,7 +15,7 @@
             "tags": ["React", "JavaScript", "HTML", "CSS", "Netlify"]
         },
         {
-            "image": "images/projects/sportsposts.png",
+            "image": "images/projects/sports2.png",
             "title": "Sports Posts",
             "bodyText": "- Utilized a **MERN** stack (MongoDB, Express, React.js, Node.js) to build a full stack application. \n - Full Create, Read, Update, Delete (CRUD) operations.\n - Deployed on **Netlify** ",
             "links": [{
@@ -34,59 +34,49 @@
             "tags": ["MongoDB", "Express", "React.js", "Node.js", "Netlify"]
         },
         {
-            "image": "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image": "images/projects/disney.png",
+            "title": "Disneyland Characters ",
+            "bodyText": "- Used **RESTful API**  of Disneyland Character and fetch all characters and information \n - Utilized **React** for the front end; used **Node.js** for the back end\n - Implemented ES6 tagged template literals with Styled-Components along **CSS3** to provide style and flexbox layout",
             "links": [{
-                "text": "GitHub",
-                "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-            }],
-            "tags": ["Java", "Android", "Alarm Manager", "VIT"]
+                    "text": "GitHub",
+                    "href": "https://github.com/CagdasKalsen/project2"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://lucent-cannoli-76de25.netlify.app"
+                }
+            ],
+            "tags": ["React", "Node.js", "CSS3", "RESTful API", "Netlify"]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "image": "images/projects/trivia.png",
+            "title": "Trivia Game ",
+            "bodyText": "- Leveraged embedded **Javascript**, **CSS3**, **HTML5**, with partials to organize and display the visual aspects\n - Implemented a scoring system to track player progress and display final results and a countdown timer to add and element of challenge and pressure",
             "links": [{
-                "text": "GitHub",
-                "href": "https://github.com/mayankagarwal09/SecureChatApp"
-            }],
-            "tags": ["Java", "Android", "Firebase", "RSA"]
+                    "text": "GitHub",
+                    "href": "https://github.com/CagdasKalsen/Trivia"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://cagdaskalsen.github.io/Trivia-Game/"
+                }
+            ],
+            "tags": ["Javascript", "CSS3", "HTML5", "Netlify"]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
+            "image": "images/projects/ecommerce.png",
+            "title": "E-commerce **Work in Progress**",
+            "bodyText": "- Built a functional shopping site using **Django** web framework and **Bootstrap** front-end framework.\n - Implemented **user authentication system** to provide secure access to user-specific features, such as the ability to update their shopping cart and edit product information\n - Deployed the shopping site on **Heroku** cloud platform, making it accessible to users from anywhere with an internet connection.",
             "links": [{
-                "text": "GitHub",
-                "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-            }],
-            "tags": [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [{
-                "text": "GitHub",
-                "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-            }],
-            "tags": ["Kotlin", "Android", "MVVM", "Paging 3", "Coroutines", "Flow"]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [{
-                "text": "GitHub",
-                "href": "https://github.com/mayankagarwal09/task-tracker-app"
-            }],
-            "tags": ["TypeScript", "Angular 12", "JavaScript"]
+                    "text": "GitHub",
+                    "href": "https://github.com/CagdasKalsen/capstone_project"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://cagdaskalsen.github.io/Trivia-Game/"
+                }
+            ],
+            "tags": ["Django", "Bootstrap", "Heroku", "Python"]
         }
     ]
 }

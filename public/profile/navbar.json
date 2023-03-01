@@ -1,8 +1,8 @@
 {
     "logo": {
         "source": "images/cagdas.png",
-        "height": 155,
-        "width": 170
+        "height": 70,
+        "width": 100
     },
     "sections": [{
             "title": "Home",
@@ -30,7 +30,7 @@
         },
         {
             "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
+            "href": "https://docs.google.com/document/d/e/2PACX-1vQJzWfLWNVGxTr5hJKPwzTNoV6yoKQ5RLRJ2g57AmO7t7Thqkm9ovRS7KIwXG6zgEUv30-iu99pYve6/pub",
             "type": "link"
         }
     ]
