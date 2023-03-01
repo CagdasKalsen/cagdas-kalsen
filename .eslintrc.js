@@ -1,6 +1,3 @@
-/* eslint-disable eol-last */
-/* eslint-disable quotes */
-/* eslint-disable indent */
 module.exports = {
     env: {
         browser: true,
