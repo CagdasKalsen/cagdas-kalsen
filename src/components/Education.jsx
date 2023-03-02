@@ -1,9 +1,3 @@
-/* eslint-disable quotes */
-/* eslint-disable implicit-arrow-linebreak */
-/* eslint-disable function-paren-newline */
-/* eslint-disable comma-dangle */
-/* eslint-disable no-confusing-arrow */
-/* eslint-disable react/destructuring-assignment */
 import React, { useEffect, useState, useContext } from "react";
 import { Chrono } from "react-chrono";
 import { Container } from "react-bootstrap";

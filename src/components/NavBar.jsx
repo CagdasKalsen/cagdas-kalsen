@@ -1,9 +1,3 @@
-/* eslint-disable function-paren-newline */
-/* eslint-disable comma-dangle */
-/* eslint-disable operator-linebreak */
-/* eslint-disable implicit-arrow-linebreak */
-/* eslint-disable no-confusing-arrow */
-/* eslint-disable quotes */
 import { Navbar, Nav, Container } from "react-bootstrap";
 import React, { useEffect, useState, useContext } from "react";
 import { withRouter } from "react-router";
@@ -14,7 +8,7 @@ import ThemeToggler from "./ThemeToggler";
 
 const styles = {
   logoStyle: {
-    width: 155,
+    width: 50,
     height: 40,
   },
 };

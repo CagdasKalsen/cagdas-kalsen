@@ -1,12 +1,12 @@
-import React from 'react';
-import { Spinner } from 'react-bootstrap';
+import React from "react";
+import { Spinner } from "react-bootstrap";
 
 const styles = {
   spinnerContainerStyle: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100%',
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    height: "100%",
   },
 };
 
